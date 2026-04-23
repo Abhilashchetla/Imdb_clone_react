@@ -2,12 +2,15 @@ import React, { useEffect, useState } from "react";
 import Moviecard from "./Moviecard";
 import axios from "axios";
 import Pagination from "./pagination";
-function Movies() {
+function Movies({handleaddwatlist, handleremwatlist, watchlist}) {
+
+
+
   const [movies, setmovies] = useState([]);
   const [pageno,setpageno]=useState(1)
 
   const handleprev=()=>{
-    if (pageno==1){
+    if (pageno > 1){
         setpageno(pageno-1)
   }
 }
@@ -33,8 +36,10 @@ function Movies() {
           return (
             <Moviecard
               key={movieobj.id}
+              movobj={movieobj}
               poster_path={`https://image.tmdb.org/t/p/original${movieobj.poster_path}`}
-              name={movieobj.original_title}
+              name={movieobj.original_title} handleaddwatlist={handleaddwatlist} handleremwatlist={handleremwatlist}
+              watchlist={watchlist}
             />
           );
         })}
