@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Moviecard from "./Moviecard";
 import axios from "axios";
-import Pagination from "./pagination";
+import Pagination from "./Pagination";
 
 function Movies({ handleaddwatlist, handleremwatlist, watchlist }) {
   const [movies, setmovies] = useState([]);
