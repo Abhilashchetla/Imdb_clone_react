@@ -22,7 +22,7 @@ A fully responsive movie web application built using React that allows users to 
 
 ## 🌐 Live Demo
 
-👉 https://imdbclone-react.netlify.app/watchlist
+👉 https://imdbclone-react.netlify.app/
 
 ## 📂 GitHub Repository
 
