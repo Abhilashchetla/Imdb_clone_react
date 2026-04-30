@@ -22,11 +22,11 @@ A fully responsive movie web application built using React that allows users to 
 
 ## 🌐 Live Demo
 
-👉 https://your-netlify-link.netlify.app
+👉 https://imdbclone-react.netlify.app/watchlist
 
 ## 📂 GitHub Repository
 
-👉 https://github.com/yourusername/imdb-clone-react
+👉 https:https://github.com/Abhilashchetla/Imdb_clone_react.git
 
 ## 📸 Screenshots
 
