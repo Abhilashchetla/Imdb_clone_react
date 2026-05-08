@@ -1,5 +1,5 @@
 import React from "react";
-
+import Watchlist from "./Watchlist";
 function Banner() {
   return (
     <div
@@ -21,12 +21,7 @@ function Banner() {
           ⭐ 8.4 | 2019 | Action, Sci-Fi | 3h 1m
         </p>
         <div className="mt-4 flex gap-3">
-          <button className="bg-white text-black px-4 py-2 rounded font-semibold hover:bg-gray-300">
-            ▶ Play
-          </button>
-          <button className="bg-gray-700 text-white px-4 py-2 rounded hover:bg-gray-600">
-            + Watchlist
-          </button>
+
         </div>
 
       </div>

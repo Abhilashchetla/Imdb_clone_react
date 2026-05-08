@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Movies from "./components/Movies";
 import Watchlist from "./components/Watchlist";
 import Banner from "./components/Banner";
+import Login from "./components/Login";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 
@@ -56,6 +57,7 @@ function App() {
                   handleaddwatlist={handleaddwatlist}
                   handleremwatlist={handleremwatlist}
                 />
+                
               </>
             }
           />
@@ -65,6 +67,7 @@ function App() {
             element={<Watchlist watchlist={watchlist} setwatchlist={setwatchlist}/>}
 
           />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </>
